@@ -1,7 +1,7 @@
-# Beaufity Girls
+# Beauty Girls
 
 ## Objetivos
-
+crie uma plataforma web da loja **Beauty Girls**, unindo um catálogo responsivo de cosméticos a um painel administrativo seguro com gestão de estoque, autenticação protegida e auditoria completa de ações, entregando uma solução funcional, segura e pronta para impulsionar o crescimento do negócio.
 ### Stack Tecnlógico
 - Backend: PHP estruturado com sessões nativas
 - Banco de dados: MySQL (PDO para segurança)
