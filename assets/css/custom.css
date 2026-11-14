@@ -1,0 +1,32 @@
+/* Beauty Girls - Estilos Complementares */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #db2767 0%, #f472a7 50%, #d97706 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@keyframes pulseBadge {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.badge-pulse {
+    animation: pulseBadge 2s infinite ease-in-out;
+}
